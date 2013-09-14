@@ -56,11 +56,13 @@ done
 #aptインストーラ起動
 if [ $APT ]; then
 	echo "apt-get"
+	sudo apt-get update
 	sudo apt-get install ${LIST_PACKAGE} -y
 	exit
 fi
 
 #作業ディレクトリの設定
+INST_DIR="$INST_DIR/gimp-x.x"
 WORK_DIR="$INST_DIR/src"
 
 #インストール無効化
