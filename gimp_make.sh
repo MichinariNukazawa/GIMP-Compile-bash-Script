@@ -2,7 +2,7 @@
 
 echo "gimp make srcipt."
 
-LIST_PACKAGE=" git-core intltool libjpeg-dev libopenexr-dev librsvg2-dev libtiff4-dev python-dev python-gtk2-dev libexif-dev liblcms1-dev libgtk2.0-dev gnome-doc-utils gtk-doc-tools libdevhelp-dev devhelp libdevhelp-dev liblzma-dev libbz2-dev"
+LIST_PACKAGE=" git-core intltool libjpeg-dev libopenexr-dev librsvg2-dev libtiff4-dev python-dev python-gtk2-dev libexif-dev liblcms1-dev libgtk2.0-dev gnome-doc-utils gtk-doc-tools libdevhelp-dev devhelp libdevhelp-dev liblzma-dev libbz2-dev libgexiv2-dev"
 
 INST_DIR=$HOME
 
