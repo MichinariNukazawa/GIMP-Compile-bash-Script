@@ -1,0 +1,3 @@
+
+This sources use to 修正BSDライセンス (New BSD License = 3-clause BSD license)
+
